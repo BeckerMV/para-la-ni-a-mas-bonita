@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta de Noviazgo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #botones {
+            margin-top: 20px;
+        }
+
+        /* Estilo adicional para la imagen */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Reemplaza la ruta de la imagen con la URL directa desde Imgur -->
+    <img src="https://i.imgur.com/T6QJNfc.png" alt="la niña más bonita">
+
+    <h2>¡Hola Fer! ❤️</h2>
+    <p> Espero que te encuentres de maravilla. Hay algo que quiero decirte y creo que no hay manera de darle vueltas, así que voy al punto. Desde que nos conocimos, he sentido una conexión especial contigo y simplemente no puedo dejar de pensar en ti.
+No quiero complicarlo con grandes discursos ni cosas por el estilo. Simplemente me gusta pasar tiempo contigo, me encanta cómo eres, y creo que podríamos tener algo realmente genial juntos, asi que.</p>
+    <p>¿Te gustaría ser mi novia?</p>
+
+    <div id="botones">
+        <button onclick="responder('sí')">Sí</button>
+        <button onclick="responder('no')">No</button>
+    </div>
+
+    <script>
+        function responder(respuesta) {
+            if (respuesta === 'sí') {
+                alert("¡Perfecto, oficialmente somos novios!");
+            } else if (respuesta === 'no') {
+                alert("No importa, sigamos siendo amigos");
+            } else {
+                alert("Lo siento, no entendí tu respuesta.");
+            }
+        }
+    </script>
+</body>
+</html>
